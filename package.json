@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:simors/yjbFrontend.git",
   "author": "wanpeng <wanpeng19860919@163.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "leancloud-storage": "^3.4.1"
+  }
 }
