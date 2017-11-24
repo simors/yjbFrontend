@@ -1,0 +1,9 @@
+{
+  "name": "yjbFrontend",
+  "version": "1.0.0",
+  "description": "for yiijiabao score exchange promotion",
+  "main": "index.js",
+  "repository": "git@github.com:simors/yjbFrontend.git",
+  "author": "wanpeng <wanpeng19860919@163.com>",
+  "license": "MIT"
+}
