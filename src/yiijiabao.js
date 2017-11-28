@@ -113,7 +113,33 @@ exports.fetchPromotion = function (userId, callback) {
  * - result, 调用正常时得到的对象
  * Result:
  * //结果示例
+ * {
+ *  "promotion": {
+ *  "__type": "Pointer",
+ *  "className": "Promotion",
+ *  "objectId": "5a0aae3aee920a0044355323"
+ *  },
+ *  "user": {
+ *    "__type": "Pointer",
+ *    "className": "_User",
+ *    "objectId": "5a02f8e71579a300451c1f91"
+ *  },
+ *  "metadata": {
+ *    "scores": 50,
+ *    "gift": "watch",
+ *    "name": "小明",
+ *    "phone": "13712341234",
+ *    "addr": "湖南省长沙市岳麓区"
+ *  },
+ *  "objectId": "5a1cdc2a128fe100469f6ecb",
+ *  "createdAt": "2017-11-28T03:46:50.443Z",
+ *  "updatedAt": "2017-11-28T03:46:50.443Z"
+ * }
  */
 exports.exchange = function (params, callback) {
-  console.log("exchange......")
+  AV.Cloud.run('promExchangeGift', params).then((result) => {
+    callback(null, result)
+  }).catch((error) => {
+    callback(error)
+  })
 }
