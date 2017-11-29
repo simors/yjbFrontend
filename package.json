@@ -1,6 +1,6 @@
 {
-  "name": "yjbsdk",
-  "version": "3.0.0",
+  "name": "promotion-sdk",
+  "version": "1.0.0",
   "description": "yiijiabao score exchange promotion SDK",
   "main": "index.js",
   "repository": "git@github.com:simors/yjbFrontend.git",
@@ -16,5 +16,5 @@
     "gulp": "^3.9.1",
     "mocha": "^4.0.1"
   },
-  "unpkg": "umd/yjb-min.js"
+  "unpkg": "dist/yiijiabao-min.js"
 }
