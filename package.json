@@ -1,6 +1,6 @@
 {
-  "name": "yjbfrontend",
-  "version": "1.0.1",
+  "name": "yjbsdk",
+  "version": "2.0.0",
   "description": "yiijiabao score exchange promotion SDK",
   "main": "index.js",
   "repository": "git@github.com:simors/yjbFrontend.git",
