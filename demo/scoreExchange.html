@@ -7,25 +7,9 @@
 <body>
 <h1>积分兑换测试</h1>
 <button onclick="getUserInfo()">获取用户信息</button>
-<script type="application/javascript" src="../src/yjb.js"></script>
+<script src="../src/test.js"></script>
 <script>
-    var yiijiabao = require('/yiijiabao.js')
-    var appid = 'HFRm8OUW9tNj2qxz6LuBExBa-gzGzoHsz'
-    var appKey = "E9kbn52mW5NL8u15c7Xywf2B"
-    function ini() {
-        yiijiabao.init(appid, appKey)
-    }
-    ini()
-    var userId = "5a02f8e71579a300451c1f91"
-    function getUserInfo() {
-        yiijiabao.fetchUserInfo(userId, function (err, result) {
-            if(err) {
-                alert(err)
-                return
-            }
-            console.log(result)
-        })
-    }
+    console.log("test", get())
 </script>
 </body>
 </html>
