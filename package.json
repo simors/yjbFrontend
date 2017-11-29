@@ -16,7 +16,5 @@
     "gulp": "^3.9.1",
     "mocha": "^4.0.1"
   },
-  "files": [
-    "umd"
-  ]
+  "unpkg": "umd/yjb-min.js"
 }
