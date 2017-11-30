@@ -1,5 +1,5 @@
 {
-  "name": "promotion-sdk",
+  "name": "promotionsdk",
   "version": "1.0.0",
   "description": "yiijiabao score exchange promotion SDK",
   "main": "index.js",
